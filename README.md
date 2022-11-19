@@ -7,8 +7,8 @@ This was a coding exercise given by Fetch rewards. I was given three datasets re
 2. The second part was to write SQL queries to answer some of the questions from business stakeholders. For this, I installed necessary libraries and used  SQLite through SQL Alchemy in python to implement the queries. First I created a database called fetch in which I pushed all the three tranformed datasets and then I answered the queries that were asked using SQL.
 
 3. The third part was to evaluate Data Quality Issues in the Data Provided. For this, I used SQL and python both to find the data quality issues. Some of   the issues that I found are:
-   a) The primary key in the Receipt table is not unique
-   b) The count of unique brand codes in the receipt and brand table does not match
-   c) For some of the records in the brand table, attribute brand name and brandcode are same.
+   * The primary key in the Receipt table is not unique
+   * The count of unique brand codes in the receipt and brand table does not match
+   * For some of the records in the brand table, attribute brand name and brandcode are same.
 
 4. The fourth part was to communicate with Business Stakeholders. I have included a file where I wrote an email to Stakeholders to explain them my work and help them understand more about this data.
